@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3D1291E-B52B-4FCB-B1B0-EA5F482B37CD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorldEdit</RootNamespace>
+    <AssemblyName>WorldEdit</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>..\..\tshock_release (1)\ServerPlugins\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\tshock_release (1)\ServerPlugins\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TerrariaServer">
+      <HintPath>..\..\tshock_release (1)\TerrariaServer.exe</HintPath>
+    </Reference>
+    <Reference Include="TShockAPI">
+      <HintPath>..\..\tshock_release (1)\ServerPlugins\TShockAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Biome.cs" />
+    <Compile Include="Commands\Cut.cs" />
+    <Compile Include="Commands\FixHalves.cs" />
+    <Compile Include="Commands\FixSlopes.cs" />
+    <Compile Include="Commands\Mow.cs" />
+    <Compile Include="Commands\PaintWall.cs" />
+    <Compile Include="Commands\Copy.cs" />
+    <Compile Include="Commands\Drain.cs" />
+    <Compile Include="Commands\FixGrass.cs" />
+    <Compile Include="Commands\Flip.cs" />
+    <Compile Include="Commands\Flood.cs" />
+    <Compile Include="Commands\Paint.cs" />
+    <Compile Include="Commands\Paste.cs" />
+    <Compile Include="Commands\Redo.cs" />
+    <Compile Include="Commands\Rotate.cs" />
+    <Compile Include="Commands\SetWall.cs" />
+    <Compile Include="Commands\SetWire.cs" />
+    <Compile Include="Commands\Undo.cs" />
+    <Compile Include="Commands\WECommand.cs" />
+    <Compile Include="Expressions\AndExpression.cs" />
+    <Compile Include="Expressions\Expression.cs" />
+    <Compile Include="Expressions\NotExpression.cs" />
+    <Compile Include="Expressions\OrExpression.cs" />
+    <Compile Include="Expressions\Parser.cs" />
+    <Compile Include="Expressions\TestExpression.cs" />
+    <Compile Include="Expressions\Token.cs" />
+    <Compile Include="Expressions\XorExpression.cs" />
+    <Compile Include="Extensions\TSPlayerExtensions.cs" />
+    <Compile Include="PlayerInfo.cs" />
+    <Compile Include="Commands\Set.cs" />
+    <Compile Include="Tools.cs" />
+    <Compile Include="WorldEdit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

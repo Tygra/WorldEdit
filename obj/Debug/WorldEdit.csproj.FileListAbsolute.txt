@@ -1,0 +1,12 @@
+C:\Users\tygra\Desktop\Dropbox\WorldEdit\bin\WorldEdit.dll
+C:\Users\tygra\Desktop\Dropbox\WorldEdit\bin\WorldEdit.pdb
+C:\Users\tygra\Desktop\Dropbox\WorldEdit\bin\Mono.Data.Sqlite.dll
+C:\Users\tygra\Desktop\Dropbox\WorldEdit\bin\MySql.Data.dll
+C:\Users\tygra\Desktop\Dropbox\WorldEdit\bin\TerrariaServer.exe
+C:\Users\tygra\Desktop\Dropbox\WorldEdit\bin\TShockAPI.dll
+C:\Users\tygra\Desktop\Dropbox\WorldEdit\bin\Newtonsoft.Json.dll
+C:\Users\tygra\Desktop\Dropbox\WorldEdit\bin\HttpServer.dll
+C:\Users\tygra\Desktop\Dropbox\WorldEdit\bin\BCrypt.Net.dll
+C:\Users\tygra\Desktop\Dropbox\WorldEdit\obj\Debug\WorldEdit.csprojResolveAssemblyReference.cache
+C:\Users\tygra\Desktop\Dropbox\WorldEdit\obj\Debug\WorldEdit.dll
+C:\Users\tygra\Desktop\Dropbox\WorldEdit\obj\Debug\WorldEdit.pdb
