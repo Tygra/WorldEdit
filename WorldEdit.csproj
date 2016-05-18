@@ -34,11 +34,13 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Mono.Data.Sqlite">
-      <HintPath>..\..\tshock_release (1)\ServerPlugins\Mono.Data.Sqlite.dll</HintPath>
+    <Reference Include="Mono.Data.Sqlite, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\tshock_4.3.13\ServerPlugins\Mono.Data.Sqlite.dll</HintPath>
     </Reference>
-    <Reference Include="MySql.Data">
-      <HintPath>..\..\tshock_release (1)\ServerPlugins\MySql.Data.dll</HintPath>
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\tshock_4.3.13\ServerPlugins\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,11 +49,13 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="TerrariaServer">
-      <HintPath>..\..\tshock_release (1)\TerrariaServer.exe</HintPath>
+    <Reference Include="TerrariaServer, Version=1.3.0.6, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\tshock_4.3.13\TerrariaServer.exe</HintPath>
     </Reference>
-    <Reference Include="TShockAPI">
-      <HintPath>..\..\tshock_release (1)\ServerPlugins\TShockAPI.dll</HintPath>
+    <Reference Include="TShockAPI, Version=4.3.11.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\tshock_4.3.13\ServerPlugins\TShockAPI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

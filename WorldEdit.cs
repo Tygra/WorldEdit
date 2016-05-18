@@ -100,7 +100,7 @@ namespace WorldEdit
 							}
 							else if (info.Point == 3)
 							{
-								List<string> regions = TShock.Regions.InAreaRegionName(x, y);
+								List<string> regions = TShock.Regions.InAreaRegionName(x, y).ToList();
 								if (regions.Count == 0)
 								{
 									TShock.Players[e.Msg.whoAmI].SendErrorMessage("No region exists there.");

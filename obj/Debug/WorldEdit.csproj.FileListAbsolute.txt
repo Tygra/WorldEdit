@@ -10,3 +10,15 @@ C:\Users\tygra\Desktop\Dropbox\WorldEdit\bin\BCrypt.Net.dll
 C:\Users\tygra\Desktop\Dropbox\WorldEdit\obj\Debug\WorldEdit.csprojResolveAssemblyReference.cache
 C:\Users\tygra\Desktop\Dropbox\WorldEdit\obj\Debug\WorldEdit.dll
 C:\Users\tygra\Desktop\Dropbox\WorldEdit\obj\Debug\WorldEdit.pdb
+C:\Users\Crusader\Desktop\Plugins\WorldEdit\bin\WorldEdit.dll
+C:\Users\Crusader\Desktop\Plugins\WorldEdit\bin\WorldEdit.pdb
+C:\Users\Crusader\Desktop\Plugins\WorldEdit\bin\Mono.Data.Sqlite.dll
+C:\Users\Crusader\Desktop\Plugins\WorldEdit\bin\MySql.Data.dll
+C:\Users\Crusader\Desktop\Plugins\WorldEdit\bin\TerrariaServer.exe
+C:\Users\Crusader\Desktop\Plugins\WorldEdit\bin\TShockAPI.dll
+C:\Users\Crusader\Desktop\Plugins\WorldEdit\bin\Newtonsoft.Json.dll
+C:\Users\Crusader\Desktop\Plugins\WorldEdit\bin\HttpServer.dll
+C:\Users\Crusader\Desktop\Plugins\WorldEdit\bin\BCrypt.Net.dll
+C:\Users\Crusader\Desktop\Plugins\WorldEdit\obj\Debug\WorldEdit.csprojResolveAssemblyReference.cache
+C:\Users\Crusader\Desktop\Plugins\WorldEdit\obj\Debug\WorldEdit.dll
+C:\Users\Crusader\Desktop\Plugins\WorldEdit\obj\Debug\WorldEdit.pdb
